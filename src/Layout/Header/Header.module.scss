@@ -1,0 +1,36 @@
+@keyframes fade-in-top {
+    0% {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.header{
+    animation: fade-in-top 0.5s;
+    padding: 1.5rem 2.5rem;
+    display: flex;
+    align-items: center;
+    @media only screen and (max-width:900px) {
+      justify-content: space-between;
+    }
+    @media only screen and (max-width: 450px) {
+      padding: 1.5rem;
+      
+    }
+    &__logo{
+        width: 5rem;
+        height: 1.5625rem;
+        margin-right: 0;
+    }
+}
+.backdrop{
+  position: fixed;  
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-backdrop);
+}

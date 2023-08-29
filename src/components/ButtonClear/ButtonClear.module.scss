@@ -1,0 +1,19 @@
+.button{
+    font-family: inherit;
+    padding: .8rem 1.5rem;
+    border-radius: .7rem;
+    font-size: 1rem;
+    border: 2px solid var(--color-grey);
+    color: var(--color-grey);
+    background-color: transparent;
+    transition: all .3s;
+    @media only screen and (max-width:900px) {
+        width: 12.1875rem;
+    }
+    &:hover{
+        cursor: pointer;
+        color: var(--color-black);
+        border: 2px solid var(--color-black);
+
+    }
+}

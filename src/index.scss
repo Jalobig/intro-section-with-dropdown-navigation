@@ -1,0 +1,21 @@
+:root {
+  // Colors
+
+  /// Neutral
+
+  --color-white: hsl(0, 0%, 98%);
+  --color-grey: hsl(0, 0%, 41%);
+  --color-grey-shadow: hsla(0, 0%, 41%, 0.3);
+  --color-black: hsl(0, 0%, 8%);
+  --color-backdrop: hsla(0, 0%, 8%, 0.6);
+}
+*,*::after,*::before{
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Epilogue', sans-serif;
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
