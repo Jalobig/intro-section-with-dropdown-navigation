@@ -22,7 +22,7 @@ const Header = () => {
           onClick={menuHandler}
         />
       )}
-      {isMenuActive && media && <div className={classes.backdrop}></div>}
+      {isMenuActive && media && <div className={classes.backdrop} onClick={menuHandler}></div>}
 
       {((isMenuActive && media)|| !media) && <>
         <Navbar menuHandler={menuHandler} />

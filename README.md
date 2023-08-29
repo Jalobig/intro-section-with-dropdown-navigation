@@ -44,6 +44,7 @@ Users should be able to:
 ### Useful resources
 
 - [Building a custom React media query hook for more responsive apps](https://www.netlify.com/blog/2020/12/05/building-a-custom-react-media-query-hook-for-more-responsive-apps/) - This helped me for with building a custom media query hook.
+- [React outside click package](https://github.com/airbnb/react-outside-click-handler) - This helped me for the dropdown. With this package, the user will be able to remove the dropdown by clicking anywhere on the screen.
 
 ## Author
 
